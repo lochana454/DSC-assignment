@@ -1,0 +1,9 @@
+thriller=["Dark","Mindhunter","Parasite","Inception","Insidious","Interstellar","Prison Break","Money Heist","War","Jack Ryan"]
+comedy=["Friends","3 Idiots","Brooklyn 99","How I Met Your Mother","Rick And Morty","The Big Bang Theory","The Office","Space Force"]
+watch=input("Enter series")
+if watch in thriller:
+    print("'It's a thriller")
+elif watch in comedy:
+        print("It's a comedy")
+else:
+            print("It's neither thriller nor comedy")
